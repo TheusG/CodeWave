@@ -115,7 +115,7 @@ nav >.nav-links {
 
 .nav-links li {
     float: left;
-    margin: 0 10px;
+    margin: 10px 12px;
     background: none;
  
 }
@@ -131,6 +131,7 @@ nav >.nav-links {
     border-radius: 20px;
     background: none;
     border: solid rgb(171 160 255) 1px;
+    transition: 1s;
 }
 .burguer{
     display: none;
@@ -599,7 +600,7 @@ footer .wave#wave4{
         position: absolute;
         top: 65px;
         right: 0;
-        height:320px;
+        height:360px;
         transition: 0.5s;
         transform: translateX(100%);
         border-radius: 3px;
@@ -691,24 +692,6 @@ footer .wave#wave4{
     
 }
 @media (max-width: 600px){
-    .imageConteiner h2 {
-
-        position: absolute;
-        top: 150px;
-        left: 50px;
-        background: none;
-        font-size: 25px;
-       
-    
-    }
-    .imageConteiner p{
-        
-        top: 200px;
-        left: 50px;
-        font-size: 20px;
-     
-        
-    }
     .conteinerMVS p{
         text-align: left;
     }
@@ -717,9 +700,20 @@ footer .wave#wave4{
     }
     
     .imageConteiner{
-        height: 500px;
+        height: 1500px;
     }
-   
+    .imageConteiner h2 {
+
+        top: 250px;
+        left: 30px;
+        
+    } 
+    .imageConteiner p{
+      
+        top: 350px;
+        left: 30px;
+      
+    }
     .conteiner2{
         height: 1050px;
    
@@ -762,3 +756,5 @@ footer .wave#wave4{
 #centralizar{
     text-align: center;
 }
+
+
