@@ -66,8 +66,12 @@ window.onscroll = function() {
       linha1.classList.toggle('linha1-active')
       linha2.classList.toggle('linha2-active')
       linha3.classList.toggle('linha3-active')
+
   });
 
+
+
+  
  
   
   
