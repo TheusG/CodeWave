@@ -1,5 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+
+::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(55, 45, 66); /* Cor de fundo da área da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(225, 221, 255);/* Cor do indicador da barra de rolagem */
+    border-radius: 6px; /* Borda arredondada do indicador */
+}
+
+/* Estilizando a barra de rolagem para o Firefox */
+::-moz-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+}
+
+::-moz-scrollbar-track {
+    background-color: #f1f1f1; /* Cor de fundo da área da barra de rolagem */
+}
+
+::-moz-scrollbar-thumb {
+    background-color: #888; /* Cor do indicador da barra de rolagem */
+    border-radius: 6px; /* Borda arredondada do indicador */
+}
 *{
     box-sizing: border-box;
     padding: 0;
